@@ -1,6 +1,6 @@
 module.exports = {
     name: 'queue',
-    aliases: [q],
+    aliases: [],
     category: 'Music',
     utilisation: '{prefix}queue',
 
