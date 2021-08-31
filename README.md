@@ -31,20 +31,20 @@ discord: {
 }
 ```
 
-- `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section.
-- `prefix`, the prefix that will be set to use the bot.
-- `activity`, the activity of the bot.
+- `token`, 機器人的token
+- `prefix`, 機器人的指令開頭.
+- `activity`, 機器人的上線狀態.
 
-In the console, type `npm install` to install all dependencies.
+在主控台,輸入`npm install`以開始安裝需要的檔案.
 
-- To start the bot :
+- 讓機器人上線 :
 
 ```
-#With Node
+#Node
 node index.js
 npm start #Indicated in package.json
 
-#With pm2
+#pm2
 pm2 start index.js --name "MusicBot"
 ```
 
@@ -69,15 +69,15 @@ filter <filter>, 過濾。
 w-filters, 查看有過濾的東西。
 ```
 
-### 💡 General commands
+### 💡 一般指令
 
 ```
-ping, see the bot latency.
-help, see the list of available commands.
-debug, see number of voice connections.
+ping, 查看延遲.
+help, 指令說明.
+debug, 目前連接的語音頻道數量.
 ```
 
-### 🏓 使用的東西 (to change the code)
+### 🏓 使用的素材 (to change the code)
 
 Find all the functions available on the official code [right here](https://github.com/Androz2091/discord-player).
 
