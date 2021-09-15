@@ -1,9 +1,9 @@
 # 憨憨音樂Bot
-一個已完成ㄉBot. Using a module (discord-player) 🎧
+一個已完成ㄉBot. Using a module (discord-player)
 
 如果有任何需要幫忙的可以私訊給我discord : Han Han#4514
 
-### ⚡ 安裝方式
+###  安裝方式
 
 嗯，就下載然後自己編輯就好
 打開 `config` 然後在 `bot.js`.
@@ -50,7 +50,7 @@ pm2 start index.js --name "MusicBot"
 
 All you have to do is turn on your bot !
 
-### 🎵 音樂指令
+### 音樂指令
 
 ```
 play <name/URL>, 在語音頻道「直接」撥放音樂。
@@ -69,7 +69,7 @@ filter <filter>, 過濾。
 w-filters, 查看有過濾的東西。
 ```
 
-### 💡 一般指令
+### 一般指令
 
 ```
 ping, 查看延遲.
@@ -77,7 +77,7 @@ help, 指令說明.
 debug, 目前連接的語音頻道數量.
 ```
 
-### 🏓 使用的素材 (to change the code)
+### 使用的素材 (to change the code)
 
 Find all the functions available on the official code [right here](https://github.com/Androz2091/discord-player).
 
