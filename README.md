@@ -1,4 +1,4 @@
-# 憨憨音樂Bot
+# 音樂Bot
 一個已完成ㄉBot. Using a module (discord-player)
 
 如果有任何需要幫忙的可以私訊給我discord : Han Han#4514
