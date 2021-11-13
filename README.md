@@ -9,25 +9,13 @@
 打開 `config` 然後在 `bot.js`.
 如果想讓Bot運作,請完成下列動作 :
 
-- 可更改的emoji
-
-```js
-emojis: {
-    off: ':x:',
-    error: ':warning:',
-    queue: ':bar_chart:',
-    music: ':musical_note:',
-    success: ':white_check_mark:',
-}
-```
-
 - 你需要改的東西
 
 ```js
 discord: {
-    token: 'TOKEN',
-    prefix: 'PREFIX',
-    activity: 'ACTIVITY',
+    token: 'TOKEN', // 機器人的token
+    prefix: 'PREFIX', // 指令開頭
+    activity: 'ACTIVITY', // 機器人狀態
 }
 ```
 
