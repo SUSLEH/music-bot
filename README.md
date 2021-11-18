@@ -36,12 +36,12 @@ npm start #Indicated in package.json
 pm2 start index.js --name "MusicBot"
 ```
 
-All you have to do is turn on your bot !
+你所需要做的就是讓機器人上線!
 
 ### 音樂指令
 
 ```
-play <name/URL>, 在語音頻道「直接」撥放音樂。
+play <曲名/網址>, 在語音頻道「直接」撥放音樂。
 search <name>, 列出搜尋結果並選擇音樂。
 pause, 暫停音樂。
 resume, 恢復播放。
@@ -65,9 +65,7 @@ help, 指令說明.
 debug, 目前連接的語音頻道數量.
 ```
 
-### 使用的素材 (to change the code)
-
-Find all the functions available on the official code [right here](https://github.com/Androz2091/discord-player).
+### 使用的素材
 
 This is used with [discord.js](https://www.npmjs.com/package/discord.js) and [discord-player](https://www.npmjs.com/package/discord-player).
  music-bot
